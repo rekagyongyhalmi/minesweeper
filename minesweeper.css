@@ -1,0 +1,116 @@
+body {
+  margin: 10px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: auto 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #E9D6EB;
+  color: #92359f;
+  border: 1px solid #92359f;
+  padding: 1em;
+  border-radius: 20% / 40%;
+  box-shadow: 10px 5px 5px #92359f;
+  font-size: large;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+button:hover {
+  box-shadow: 5px 3px 5px #92359f inset;
+}
+
+table {
+  background-color: #E9D6EB;
+  margin: auto;
+  border: 1px solid #429f35;
+}
+
+td {
+  background-color: #E9D6EB;
+  color: #92359f;
+  width: 2ch;
+  height: 1.2em;
+  border: 0.5px solid #429f35;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.cell-revealed {
+  background-color: #429f35;
+}
+
+.exploded {
+  background-color: #ffe07b;
+  font-size: 1.2em;
+}
+
+.marked-mine {
+  color: #0F5F38;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.mapped-color-exclamation {
+  color: #0f5f38;
+}
+
+.mapped-color-0 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.mapped-color-1 {
+  background-color: #000000;
+  color: #e9d6eb;
+}
+
+.mapped-color-2 {
+  background-color: #000000;
+  color: #d3aed8;
+}
+
+.mapped-color-3 {
+  background-color: #000000;
+  color: #bd85c5;
+}
+
+.mapped-color-4 {
+  background-color: #000000;
+  color: #a75db2;
+}
+
+.mapped-color-5 {
+  background-color: #92359f;
+  color: #ffffff;
+}
+
+.mapped-color-6 {
+  background-color: #742a7f;
+  color: #ffffff;
+}
+
+.mapped-color-7 {
+  background-color: #571f5f; 
+  color: #ffffff;
+}
+
+.mapped-color-8 {
+  background-color: #3a153f;
+  color: #ffffff;
+}
+
+.mapped-color-9 {
+  background-color: #1d0a1f;
+  color: #ffffff;
+}
+
+.mapped-color-star {
+  color: #000000;
+}
