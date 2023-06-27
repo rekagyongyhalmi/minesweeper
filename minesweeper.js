@@ -155,11 +155,12 @@ function stateChange(tc) {
 }
 
 function gameLost() {
-    document.querySelectorAll("td").forEach((t) => {
-        if (mineIds.has(t.id)) {
-            t.innerHTML = "&#127879;";
-            t.classList.add("exploded");
+    document.querySelectorAll("td").forEach((td) => {
+        if (mineIds.has(td.id)) {
+            td.innerHTML = "&#127879;";
+            td.classList.add("exploded");
         }
+        td.replaceWith(td.cloneNode(true));
     });
 }
 
